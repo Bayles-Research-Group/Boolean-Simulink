@@ -24,7 +24,7 @@ end
 
 
 cutA = imresize(a(1:resolution/numOutMatrices,:,1), [resolution, resolution],'nearest'); % Take the pattern matrix a(:,:,1) and extract the first row to the row specified by resolution/numOutMatrices and all the columns. Resize this to the desired resolution based off the provided input variables.
-cutB = imresize(a(resolution/numOutMatrices+1:end,:,1), [resolution, resolution],'nearest'); % Take the pattern matrix a(:,:,1) and extract the from the row specified by resoltion/numOutMatries+1 to the last row in the matrix and all the columns. Resize this to the desired resolution based off the provided input variables.
+cutB = imresize(a(resolution/numOutMatrices+1:end,:,1), [resolution, resolution],'nearest'); % Take the pattern matrix a(:,:,1) and extract the from the row specified by resolution/numOutMatries+1 to the last row in the matrix and all the columns. Resize this to the desired resolution based off the provided input variables.
 
 %% Predefining output variables
 outA = a; %Assigns the correct dimensions for the output variable.
