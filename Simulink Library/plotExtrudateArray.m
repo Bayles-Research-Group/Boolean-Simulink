@@ -6,14 +6,14 @@ function plotExtrudateArray(out)
 %% Loading the simulation output from simulink
 close all; %Close all figure windows
 extrudateArrayLocal = out.extrudateArray; % Load the output array from the simulink simulation
-size(extrudateArrayLocal) %Determine the dimensions of the output variable from siimuliink
+size(extrudateArrayLocal) %Determine the dimensions of the output variable from simulink
 %% Generating the extrudate image
 figure (1) % Generate a new figure window, Figure 1
-colormap gray %Specifiy the sequence of colors used to generate the image. Gray utilizes a gradient of black and white
+colormap gray %Specify the sequence of colors used to generate the image. Gray utilizes a gradient of black and white
 image(extrudateArrayLocal, 'CDataMapping', 'scaled') %Display the image in a separate figure window
 box on %Display box outline around the figure
 axis square % Set axis lines with equal spacing
-axis off %Turn off the axis
+axis off %Turn off the axes
 %% Saving parameters and pathways
 filename = 'Asymmetric_SwitchInlet_CorrectedFlowRate.pdf' %Define the file name and type
 exportgraphics(gcf,strcat('/Users/matt/Desktop/UD Research/Manuscript Files/Matt Edits/Boolean', filename), 'ContentType','vector')  % Save the corresponding file to the specified directory pathway
