@@ -14,7 +14,7 @@ The advective assembly Boolean Simulink package is an importable library that al
 
 1)Install MATLAB and Simulink.
 
-2)From the GITHUB page, download the entire folder entitled "Simulink Library." Note: The source code operating behind the blocks is located in a separate folder entitled " Gate Source Code."
+2)From the GITHUB page, download the entire repository entitled "Boolean Simulink." Note: The source code operating behind the blocks is located in a separate folder entitled " Gate Source Code."
 
 3)Navigate to the folder in which MATLAB was saved upon installation (this is usually the documents folder): 
 
