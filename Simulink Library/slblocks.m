@@ -4,10 +4,9 @@ function blkStruct = slblocks
 % name 'My Library'
 
     Browser.Library = 'myLib_CustomBoolean';
-    % 'mylib' is the name of the library
+    % Defines the name of the library
 
     Browser.Name = 'Boolean_Custom_Library';
-    % 'My Library' is the library name that appears
-    % in the Library Browser
+    % The library that appears in the library browser in Simulink
 
     blkStruct.Browser = Browser;
