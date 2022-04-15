@@ -1,6 +1,7 @@
 
-Bayles Lab
-Installing and Operating the Boolean Simulink Package
+
+#Bayles Lab
+#Installing and Operating the Boolean Simulink Package
 Edited: April 13th, 2022
 
 
