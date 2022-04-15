@@ -3,10 +3,10 @@ function plotExtrudateArray(out)
     % Extrudate prediction plotting V1.0 - Revised 22410
     %Use this file to export a pdf of the prediction in a square image
     %Requires you to output the array using simout block.
-%% Loading the simulation output from simulink
+%% Loading the simulation output from Simulink
 close all; %Close all figure windows
-extrudateArrayLocal = out.extrudateArray; % Load the output array from the simulink simulation
-size(extrudateArrayLocal) %Determine the dimensions of the output variable from simulink
+extrudateArrayLocal = out.extrudateArray; % Load the output array from the Simulink simulation
+size(extrudateArrayLocal) %Determine the dimensions of the output variable from Simulink
 %% Generating the extrudate image
 figure (1) % Generate a new figure window, Figure 1
 colormap gray %Specify the sequence of colors used to generate the image. Gray utilizes a gradient of black and white
