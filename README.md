@@ -61,3 +61,5 @@ The advective assembly Boolean Simulink package is an importable library that al
 
 7) To run the function, call the function in the command window (i.e., plotExtrudateArray(out)) and press enter. The figure should then be saved in the folder specified. 
 
+Example files entitled "Figure3, Figure4, Figure5, Figure7, Figure8, and Figure9" are also located in the Simulink library. Each of these files includes the necessary blocks required for the simulation to run. Prior to running, be sure to specify the resolution and connect the output to the extractor block. 
+
