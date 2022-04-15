@@ -54,7 +54,7 @@ The advective assembly Boolean Simulink package is an importable library that al
 
 5) To export the output of the simulation to the MATLAB workspace, the "out.extrudateArray" block will be required. Connect this block to the stream entering the matrix viewer block. Run the simulation. This will send the results of the simulation to the MATLAB workspace as a symbolic variable labeled "out.extrudateArray."
 
-6) Download and open the MATLAB function entitled "plotExtrudateArray." The function allows for exporting the resulting figure window in any file format. To do so, first, change the name of the file to your desire in the line declared "filename." Next, find the directory pathway to the folder you would like to save the image to, copy and paste this pathway into the line entitled "exportgraphics." An example file name and pathway is given below and saves the corresponding figure as a pdf:
+6) In the Simulink Library folder open the function entitled "plotExtrudateArray." The function allows for exporting the resulting figure window in any file format. To do so, first, change the name of the file to your desire in the line declared "filename." Next, find the directory pathway to the folder you would like to save the image to, copy and paste this pathway into the line entitled "exportgraphics." An example file name and pathway is given below and saves the corresponding figure as a pdf:
 
 		filename = 'Asymmetric_SwitchInlet_CorrectedFlowRate.pdf'
 		exportgraphics(gcf,strcat('/Users/matt/Desktop/UD Research/Manuscript Files/Matt Edits/Boolean', filename), 'ContentType','vector') 
