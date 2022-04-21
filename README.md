@@ -12,7 +12,7 @@ The advective assembly Boolean Simulink package is an importable library that al
 
 ==============Installation and Setup======================
 
-1)Install MATLAB and Simulink.
+1)Install MATLAB and Simulink. Note: the DSP System toolbox in MATLAB will be required for the simulations to be run. 
 
 2)From the GITHUB page, download the entire repository entitled "Boolean Simulink." Note: The source code operating behind the blocks is located in a separate folder entitled " Gate Source Code."
 
@@ -32,7 +32,7 @@ The advective assembly Boolean Simulink package is an importable library that al
 
 6) To upload the custom library into the library browser in Simulink, navigate to the folder "Simulink Library". Open the MATLAB file entitled "slblocks.m" and run the function. More documentation on the slblocks function can be found on the mathworks site: https://www.mathworks.com/help/simulink/ug/adding-libraries-to-the-library-browser.html
 
-7) Open a blank Simulink file, in the top ribbon, click the block labeled "Library Browser." This will bring up a separate window. Scroll down, a library labeled "Boolean_Custom_Library" should be present. Here, all the icons that were previously updated should be present and ready for use. Note: If the library does not open, restart MATLAB completely and rerun the function in Step 6.
+7) Open a blank Simulink model, in the top ribbon, click the block labeled "Library Browser." This will bring up a separate window. Scroll down, a library labeled "Boolean_Custom_Library" should be present. Here, all the icons that were previously updated should be present and ready for use. Note: If the library does not open, restart MATLAB completely and rerun the function in Step 6.
 
 ==============Running a Simulation===========
 
