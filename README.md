@@ -24,7 +24,7 @@ The advective assembly Boolean Simulink package is an importable library that al
 	
 	Users/matt/Documents/MATLAB
 
-4)Open MATLAB. In the downloaded folder navigate to the folder entitled "Simulink Library". Open the .slx file entitled "myLib_CustomBoolean.slx." This will bring up a Simulink instance with blocks all symbolized as "?"'s. You will have to change the masks on each of the blocks.
+4)Open MATLAB. In the downloaded folder navigate to the folder entitled "Simulink Library". Open the .slx file entitled "myLib_CustomBoolean.slx." Each of the blocks should be already populated with the corresponding mask images. If this is not the case, then proceed with steps 5 through 6. If the masks are already populated, be sure to save the library and proceed to step one in "Running a Simulation."
 
 5)In the top ribbon, click the "locked library" button to unlock the library to allow for changes to be made. To change the image on each icon right click the icon and proceed to Mask --> Edit Mask. This will bring up a window with a file path present in the "drawing commands" box. To have the image for each mask display correctly, change the file path for each respective image. The images for each of the icons can be found in the downloaded Simulink Library. Specifically Simulink Library/Pictures For Masks. Here the .png files for each icon will be present. For each icon, copy the current directory path and paste it into the Simulink prompt box and click apply. Repeat this process for each of the blocks. When finished, make sure to lock the library and save any changes. An example of a final pathway should read as follows:
 	
