@@ -59,7 +59,7 @@ The advective assembly Boolean Simulink package is an importable library that al
 		filename = 'Asymmetric_SwitchInlet_CorrectedFlowRate.pdf'
 		exportgraphics(gcf,strcat('/Users/matt/Desktop/UD Research/Manuscript Files/Matt Edits/Boolean', filename), 'ContentType','vector') 
 
-7) To run the function, call the function in the command window (i.e., plotExtrudateArray(out)) and press enter. The figure should then be saved in the folder specified. 
+7) To run the function, **call the function in the command window** (i.e., plotExtrudateArray(out)) and press enter. The figure should then be saved in the folder specified. 
 
 ============ Uploaded Examples============
 
